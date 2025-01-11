@@ -35,7 +35,7 @@ python script.py --org <organization_name> --language <programming_language> --t
 ### Example:
 To fetch and clone the top 3 Python repositories from Google:
 ```sh
-python mine_repos.py --org=microsoft --language=Python --top_n=3
+python crawler.py --org=microsoft --language=Python --top_n=3
 ```
 
 ## How It Works
