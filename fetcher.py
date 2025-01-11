@@ -28,7 +28,7 @@ def get_args():
 
 # Function to get repositories with parallel requests
 def get_repositories(org, language, top_n=5):
-    url = f"https://api.github.com/orgs/{org}/repos?per_page=100&sort=stars&direction=desc&language={language}"
+    url = f"https://api.github.com/orgs/{org}/repos?per_page=100&sort=stars&direction=desc&language={language}" #checking only the first 100 repos
     response = requests.get(url, headers=HEADERS)
 
     if response.status_code == 403:
