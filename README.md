@@ -24,7 +24,7 @@ This script fetches and clones the top GitHub repositories from a specified orga
 Run the script with optional command-line arguments:
 
 ```sh
-python fetcher.py --org=<organization_name> --language=<programming_language> --top_n=<number_of_repos>
+python3 fetcher.py --org=<organization_name> --language=<programming_language> --top_n=<number_of_repos>
 ```
 
 ### Parameters:
@@ -35,7 +35,7 @@ python fetcher.py --org=<organization_name> --language=<programming_language> --
 ### Example:
 To fetch and clone the top 3 Python repositories from Google:
 ```sh
-python fetcher.py --org=microsoft --language=Python --top_n=3
+python3 fetcher.py --org=microsoft --language=Python --top_n=3
 ```
 
 ## How It Works
